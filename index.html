@@ -185,4 +185,118 @@ var chart = new google.visualization.PieChart(document.getElementById(‘chart_d
 chart.draw(data, options);
 }
 </script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Weather Data</title>
+</head>
+<body>
+
+<h2>Solar Flare Intensity Levels</h2>
+<table border="1">
+    <tr>
+        <th>Solar Flare Class</th>
+        <th>Peak (Watts/m²) at 1 AU</th>
+        <th>Effects on Human Exploration</th>
+    </tr>
+    <tr>
+        <td>X1</td>
+        <td>10^-4</td>
+        <td>Possible radio communication blackouts and radiation storms</td>
+    </tr>
+    <tr>
+        <td>X5</td>
+        <td>10^-3</td>
+        <td>High radiation exposure; potential risk to astronauts outside shielding</td>
+    </tr>
+    <tr>
+        <td>M1</td>
+        <td>10^-5</td>
+        <td>Minor radiation storms; minimal impact on human space activities</td>
+    </tr>
+    <tr>
+        <td>C1</td>
+        <td>10^-6</td>
+        <td>Low-level radiation storms; negligible impact on human activities</td>
+    </tr>
+</table>
+
+<h2>Cosmic Ray Exposure in Space</h2>
+<table border="1">
+    <tr>
+        <th>Spacecraft/Shielding Material</th>
+        <th>Average Cosmic Ray Exposure (mSv/year)</th>
+    </tr>
+    <tr>
+        <td>Unshielded</td>
+        <td>300-500</td>
+    </tr>
+    <tr>
+        <td>Aluminum</td>
+        <td>50-150</td>
+    </tr>
+    <tr>
+        <td>Polyethylene</td>
+        <td>20-50</td>
+    </tr>
+    <tr>
+        <td>Water</td>
+        <td>10-30</td>
+    </tr>
+    <tr>
+        <td>Lead</td>
+        <td>5-10</td>
+    </tr>
+</table>
+
+<h2>Solar Particle Events (SPEs) Impact on Astronauts</h2>
+<table border="1">
+    <tr>
+        <th>SPE Level</th>
+        <th>Potential Health Effects</th>
+    </tr>
+    <tr>
+        <td>Low</td>
+        <td>No acute health effects</td>
+    </tr>
+    <tr>
+        <td>Moderate</td>
+        <td>Increased risk of cancer for long-term missions</td>
+    </tr>
+    <tr>
+        <td>High</td>
+        <td>Acute radiation sickness; increased risk of cancer</td>
+    </tr>
+    <tr>
+        <td>Very High</td>
+        <td>Severe radiation sickness; high mortality risk</td>
+    </tr>
+</table>
+
+<h2>Impact of Space Weather on Electronics</h2>
+<table border="1">
+    <tr>
+        <th>Space Weather Event</th>
+        <th>Potential Impact on Electronics</th>
+    </tr>
+    <tr>
+        <td>Coronal Mass Ejection (CME)</td>
+        <td>Disruption of satellite operations, power grid issues</td>
+    </tr>
+    <tr>
+        <td>Solar Flares</td>
+        <td>Radio communication blackouts, GPS signal interference</td>
+    </tr>
+    <tr>
+        <td>Galactic Cosmic Rays</td>
+        <td>Bit flips and memory errors in electronic systems</td>
+    </tr>
+</table>
+
+</body>
+</html>
+
 </html>   
