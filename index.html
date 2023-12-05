@@ -208,28 +208,6 @@ Rask J., Vercoutere W., Krause A., Navarro BJ. (2012) ‘Space Faring: The Radia
 </pre>
 </p>
     </html>
-<!DOCTYPE html>
-<html>
-<head>
- <title>Change Button Colour</title>
-</head>
-<body>
- <button id="colorButton">Click me to change colour</button>
-<script>
- // Get a reference to the button element
- var button = document.getElementById("colorButton");
- // Function to change the button color
- function changeColor() {
- // Generate a random color (hexadecimal)
- var randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
- 
- // Set the button's background color to the random color
- button.style.backgroundColor = randomColor;
- }
- // Add a click event listener to the button
- button.addEventListener("click", changeColor);
- </script>
-</body>
 <h2>Solar Flare Intensity Levels</h2>
 <table border="1">
     <tr>
@@ -281,7 +259,28 @@ Rask J., Vercoutere W., Krause A., Navarro BJ. (2012) ‘Space Faring: The Radia
         <td>Severe radiation sickness; high mortality risk</td>
     </tr>
 </table>
-
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Change Button Colour</title>
+</head>
+<body>
+ <button id="colorButton">Click me to change colour</button>
+<script>
+ // Get a reference to the button element
+ var button = document.getElementById("colorButton");
+ // Function to change the button color
+ function changeColor() {
+ // Generate a random color (hexadecimal)
+ var randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
+ 
+ // Set the button's background color to the random color
+ button.style.backgroundColor = randomColor;
+ }
+ // Add a click event listener to the button
+ button.addEventListener("click", changeColor);
+ </script>
+</body>
 </body>
 </html>
 <p id="date&time"></p>
